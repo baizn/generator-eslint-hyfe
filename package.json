@@ -1,0 +1,33 @@
+{
+  "name": "generator-eslint-hyfe",
+  "version": "0.0.1",
+  "description": "海云数据前端项目JavaScript代码可视化报告生成器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baizn/generator-eslint-hyfe.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "baizhanning",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-hyfe": "0.0.1",
+    "path": "^0.12.7",
+    "plato-zh": "0.0.2",
+    "yeoman-generator": "^0.24.1"
+  },
+  "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "devDependencies": {
+    "colors": "^1.1.2"
+  }
+}
