@@ -1,6 +1,6 @@
 {
   "name": "generator-eslint-hyfe",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "海云数据前端项目JavaScript代码可视化报告生成器",
   "main": "index.js",
   "scripts": {
@@ -18,16 +18,18 @@
   "author": "baizhanning",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2",
     "eslint-config-hyfe": "0.0.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^1.2.2",
     "path": "^0.12.7",
     "plato-zh": "0.0.2",
-    "yeoman-generator": "^0.24.1"
+    "yeoman-generator": "^0.24.1",
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1"
   },
   "files": [
     "generators/app",
     "generators/router"
-  ],
-  "devDependencies": {
-    "colors": "^1.1.2"
-  }
+  ]
 }
